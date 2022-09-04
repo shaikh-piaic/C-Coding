@@ -28,7 +28,7 @@ int main()
     {
         unit_1 = t_unit;
         total1 = t_unit * 8;
-        total = (total1 + rent) * tax;
+        total = (total1 ) * tax;
         bill = total + total1 + rent;
         printf("\n");
         printf("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n ");
@@ -77,7 +77,7 @@ int main()
         unit_1 = t_unit - unit_2;
         total1 = unit_1 * 8;
         total2 = unit_2 * 12;
-        total = (total1 + total2 + rent) * tax;
+        total = (total1 + total2) * tax;
         bill = total + total1 + total2 + rent;
         printf("\n");
         printf("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n ");
@@ -128,7 +128,7 @@ int main()
         unit_1 = t_unit - unit_2;
         total1 = unit_1 * 8;
         total2 = unit_2 * 19;
-        total = (total1 + total2 + rent) * tax;
+        total = (total1 + total2 ) * tax;
         bill = total1 + total2 + rent + total;
         printf("\n");
         printf("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n ");
